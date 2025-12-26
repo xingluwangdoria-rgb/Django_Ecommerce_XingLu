@@ -31,8 +31,8 @@ SECRET_KEY = 'django-insecure-9otrouuw$8b)e10*rsdem5p7ej*2#6ef-bw3xyzclo(hb7du2r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS = ["django-ecommerce-xinglu.onrender.com", "https://django-ecommerce-xinglu.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["django-ecommerce-xinglu.onrender.com", "https://django-ecommerce-xinglu.onrender.com"]
 
 # Application definition
 
